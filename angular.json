@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -117,8 +118,16 @@
               "devServerTarget": "travel-gram:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "travel-gram"
+    }
+  },
+  "defaultProject": "travel-gram",
+  "cli": {
+    "analytics": "3833a3af-88ab-49fa-bc93-60a2ca2dd2c0"
+  }
 }

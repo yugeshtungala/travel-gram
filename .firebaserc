@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "angular-email-cfa21": {
+      "hosting": {
+        "travel-gram": [
+          "angular-email-cfa21"
+        ]
+      }
+    }
+  }
+}
